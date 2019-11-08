@@ -4,13 +4,17 @@ import { createStore, applyMiddleware } from "redux";
 import { Provider } from "react-redux";
 import thunk from "redux-thunk";
 import { rootReducer } from "./reducers";
+import "./app.css";
+
+import CharacterInfo from "./components/CharacterInfo";
 
 const store = createStore(rootReducer, applyMiddleware(thunk));
 
 function App() {
   return (
     <div className="App">
-      <div>idk man</div>
+      <h1>Breaking Bad</h1>
+      <CharacterInfo />
     </div>
   );
 }
