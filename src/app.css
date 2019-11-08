@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body {
+  background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
